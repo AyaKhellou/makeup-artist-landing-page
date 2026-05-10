@@ -1,16 +1,56 @@
-# React + Vite
+# Amelia Beauty
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern editorial-style makeup artist landing page built with React.
 
-Currently, two official plugins are available:
+This project was created as part of my React learning journey, with a strong focus on:
+- reusable component architecture
+- clean project structure
+- scalable UI patterns
+- data-driven rendering
+- maintainable frontend practices
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The website includes:
+- Hero section
+- About section
+- Filterable portfolio gallery
+- Services & pricing
+- Testimonials
+- Functional booking form with Formspree integration
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Built With
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- CSS
+- Formspree
+- React Icons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- Component-based architecture
+- Reusable UI components
+- Dynamic rendering using `.map()`
+- Portfolio category filtering
+- Form validation handling
+- Clean and scalable folder structure
+- Semantic and accessible HTML practices
+
+---
+
+## Project Structure
+
+```bash
+src/
+│
+├── assets/
+├── components/
+│   ├── layout/
+│   └── sections/
+│   └── ui/
+├── data/
+├── App.jsx
+└── main.jsx
