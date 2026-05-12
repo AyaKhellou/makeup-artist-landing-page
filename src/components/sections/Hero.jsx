@@ -8,6 +8,7 @@ export default function Hero(){
                 <span>beauty
                     <img src={makeupStain} />
                 </span>{" "}
+                <br />
                 meets 
                 <span> artistry</span>
             </h1>
