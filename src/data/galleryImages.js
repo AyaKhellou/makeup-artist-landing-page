@@ -42,12 +42,6 @@ const galleryImages = [
         category: 'Bridal'
     },
     {
-        id:4 ,
-        src: image4,
-        alt: 'lip',
-        category: 'Natural'
-    },
-    {
         id:5 ,
         src: image5,
         alt: 'eye',
@@ -129,6 +123,12 @@ const galleryImages = [
         id:18,
         src: image18,
         alt: 'natural makeup image',
+        category: 'Natural'
+    },
+    {
+        id:4 ,
+        src: image4,
+        alt: 'lip',
         category: 'Natural'
     },
     {
